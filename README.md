@@ -4,7 +4,7 @@ a 72W synchronous buck converter based on TI LM5116
 - Features:
 Input voltage range from 20 - 50V
 Output Voltage: 12V    +- 2.5%
-Output Current: Max 6A. Shuts off when reaches the limit
+Output Current: Max 6A. Shuts off after reaching the limit
 Max efficiency 96% at full load
 
 - Notes
@@ -14,7 +14,7 @@ Replacing with higher inductance solves the issue in the design as it decreases 
 Further investigations on this behaviour still needed!
 
 - Remaining issues
-1. The current design as bad "acoustics". Inductor buzzing audible. It is normal to have a buzzing noise in a switching converter prototype but it's still not
+1. The current design has bad "acoustics". Inductor buzzing is audible. It is normal to have a buzzing noise in a switching converter prototype but it's still not
 desirable. Further investigations needed on how to reduce this audible noise in a mature product.
 
 2. After loading the converter and then returning back to no load, the buck converter still draws around 2.1W standby power - which is not seen when the circuit is first
