@@ -1,0 +1,223 @@
+All prices are in CAD
+	Product Details	Quantity	Availability	Unit Price	Extended Price
+ 1
+553-4030-1-ND	
+‎553-4030-1-ND‎
+‎PA4343.223ANLT‎
+Pulse Electronics Power
+FIXED IND 22UH 8A 35 MOHM SMD
+Customer Reference
+2
+Immediate
+3.01000
+$6.02
+ 2
+P.013AVCT-ND	
+‎P.013AVCT-ND‎
+‎ERJ-8BWJR013V‎
+Panasonic Electronic Components
+RES 0.013 OHM 5% 1W 1206
+Customer Reference
+2
+Immediate
+1.03000
+$2.06
+ 3
+587-5192-1-ND	
+‎587-5192-1-ND‎
+‎QMK212SD561KD-T‎
+Taiyo Yuden
+CAP CER 560PF 250V 0805
+Customer Reference
+5
+Immediate
+0.41000
+$2.05
+ 4
+P470KACT-ND	
+‎P470KACT-ND‎
+‎ERJ-6GEYJ474V‎
+Panasonic Electronic Components
+RES SMD 470K OHM 5% 1/8W 0805
+Customer Reference
+10
+Immediate
+0.09300
+$0.93
+ 5
+478-1206YD476MAT2ACT-ND	
+‎478-1206YD476MAT2ACT-ND‎
+‎1206YD476MAT2A‎
+KYOCERA AVX
+CAP CER 47UF 16V 1206
+Customer Reference
+6
+Immediate
+2.59000
+$15.54
+ 6
+478-5719-1-ND	
+‎478-5719-1-ND‎
+‎08053C225KAT2A‎
+KYOCERA AVX
+CAP CER 2.2UF 25V X7R 0805
+Customer Reference
+10
+Immediate
+0.31800
+$3.18
+ 7
+445-173842-1-ND	
+‎445-173842-1-ND‎
+‎C2012X8R1C105M125AE‎
+TDK Corporation
+CAP CER 1UF 16V X8R 0805
+Customer Reference
+10
+Immediate
+0.43700
+$4.37
+ 8
+SI7850ADP-T1-GE3CT-ND	
+‎SI7850ADP-T1-GE3CT-ND‎
+‎SI7850ADP-T1-GE3‎
+Vishay Siliconix
+MOSFET N-CH 60V 10.3A/12A PPAK
+Customer Reference
+4
+Immediate
+1.83000
+$7.32
+ 9
+13-RE0805FRE0712KLCT-ND	
+‎13-RE0805FRE0712KLCT-ND‎
+‎RE0805FRE0712KL‎
+YAGEO
+RES SMD 12K OHM 1% 1/8W 0805
+Customer Reference
+10
+Immediate
+0.06800
+$0.68
+ 10
+738-RMCF0805JT1K30CT-ND	
+‎738-RMCF0805JT1K30CT-ND‎
+‎RMCF0805JT1K30‎
+Stackpole Electronics Inc
+RES 1.3K OHM 5% 1/8W 0805
+Customer Reference
+10
+Immediate
+0.02900
+$0.29
+ 11
+2019-RK73G2ATTD1003FCT-ND	
+‎2019-RK73G2ATTD1003FCT-ND‎
+‎RK73G2ATTD1003F‎
+KOA Speer Electronics, Inc.
+THICKFILM RESISTOR 0805
+Customer Reference
+5
+Immediate
+0.44000
+$2.20
+ 12
+13-RT0805BRE079KLCT-ND	
+‎13-RT0805BRE079KLCT-ND‎
+‎RT0805BRE079KL‎
+YAGEO
+RES SMD 9K OHM 0.1% 1/8W 0805
+Customer Reference
+10
+Immediate
+0.48000
+$4.80
+ 13
+478-5148-1-ND	
+‎478-5148-1-ND‎
+‎08051A0R5CAT2A‎
+KYOCERA AVX
+CAP CER 0.5PF 100V C0G/NP0 0805
+Customer Reference
+10
+Immediate
+0.17100
+$1.71
+ 14
+478-10509-1-ND	
+‎478-10509-1-ND‎
+‎08055A201JAT2A‎
+KYOCERA AVX
+CAP CER 200PF 50V NP0 0805
+Customer Reference
+10
+Immediate
+0.23900
+$2.39
+ 15
+541-RCS080562K0FKEACT-ND	
+‎541-RCS080562K0FKEACT-ND‎
+‎RCS080562K0FKEA‎
+Vishay Dale
+RES SMD 62K OHM 1% 0.4W 0805
+Customer Reference
+1
+Immediate
+0.38000
+$0.38
+ 16
+478-08055A5R0DAT2ACT-ND	
+‎478-08055A5R0DAT2ACT-ND‎
+‎08055A5R0DAT2A‎
+KYOCERA AVX
+CAP CER 5PF 50V NP0 0805
+Customer Reference
+1
+Immediate
+0.26000
+$0.26
+ 17
+311-4328-1-ND	
+‎311-4328-1-ND‎
+‎CC0805KRX7R9BB202‎
+YAGEO
+CAP CER 2000PF 50V X7R 0805
+Customer Reference
+5
+Immediate
+0.21000
+$1.05
+ 18
+LM5116MH-ND	
+‎LM5116MH-ND‎
+‎LM5116MH‎
+Texas Instruments
+IC REG CTRLR BUCK 20TSSOP
+Customer Reference
+2
+Immediate
+14.36000
+$28.72
+Subtotal $83.95
+ Checkout
+ Your data will be encrypted and transmitted securely.
+Summary
+Web ID:	325588698
+Access ID:	57025
+Subtotal:	$83.95
+Incoterms:
+DDP (Duty and customs paid by Digi-Key)
+Cart Tools
+Input
+Add Carts - add previous carts
+Add List - add an existing list
+Add Quote - add previous quotes
+Options
+New Cart - create a new empty cart
+Schedule Shipments - schedule your order for a future release
+Delay Entire Order - select a future delivery date for this order
+Resume Cart - resume a previous cart
+Output
+Download - save a copy of your cart in spreadsheet format
+Cart Share - create a new cart including only the quantity, part number, and customer reference
+Information:   Please refer to our Terms and Conditions a

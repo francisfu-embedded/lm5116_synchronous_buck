@@ -1,0 +1,120 @@
+Design Requirements of lm5116 wide input range synchronous buck converter
+
+Author: Yuqi Fu
+
+Input: 15 - 60V
+
+Standard Operational Output: 12V
+			     max 6A
+		
+Topology:
+synchronous buck, current mode control, ccm 
+	
+
+Chip: LM5116
+
+1.Switching Frequency:
+	fs = 250k -  making Rt = 12.5 KOhm
+	
+	
+2.Max Duty Cycle
+	Assuming an efficiency of 90%
+	D_max = V_out/(V_in_max * eta) = 0.222
+	
+3.Inductor Selection
+	Select the current ripple to be delta_I = 0.3 * I_out  = 0.3 * 6= 1.8 A
+    L = D_max * (V_in_max - V_out) / (delta_I * fs) = 0.222 (60 - 12) / (1.8 * 250000) = 23.7uH
+	will use 22uH
+	
+4. Diode Selection
+	synchronous buck, no diode used
+
+5. Current Sense resistor
+	since Vccx is not used
+	Rs <= Vcs / (I_out + Vout * T / L) = 0.013444 ohm
+	will use 0.013 ohm
+
+6. Ramp Capacitor & Resistor
+	Optimal current slope = Ios = Vout / 3 * 10 uA/V = 40uA
+
+	C_ramp = (Ios * L) / (A * Rs * Vout) = (40 * e-6 * 22 * e-6) / (10 * 0.013 * 12) = 564pF
+	will use 560pF, which is the nearest standard value
+
+	Nominal input voltage is 30V
+	Thus Vr = Vout/Vin * ((Vin-Vout) * gm + Ios)*T/C_ramp = 0.371V
+	  
+	R_ramp = (Vcc - Vr) / (Ios - 25uA) = 468571 Ohm
+	take 470k ohm
+
+	
+	
+7. Output Capacitor Selection
+	Ignoring ESR and only considering ripple voltage due to capacitor
+	Considering steady state operation:
+		I want ripple to be delta_V_out = 0.003V
+		C_out = delat_I / (8*f*delta_V_out) = 0.3 * 6 / (8 * 250k * 0.005) = 180uF
+		
+	Considering transient states. assumming a output current change of 6A, with desired overshoot voltage = 0.5V
+	C_out_os = delta_I_out^2 * L / (2 * V_out * V_os) = 66uF
+
+	I will use 5x47uF MLCCs for the application
+	Max ESR of each is 0.00169 Ohm
+
+8. Input Capactitor Selection
+	take a Vin_pp = 1V, D = 0.5 (for maximum value of D(1-D))
+	Cin >= D*(1-D)*Iout/ (Vin_pp * fs) = 6uF
+	4x2.2uF MLCCs will be used as input caps
+
+9. Bulk Capacitor Selection
+	Electrolytic caps are used for bulk capacitors
+	Take D_max = 12/15 = 0.8 Vin_tran = 0.5V, I_stp = 6
+	ESR requirement: ESR <= Vin_tran / (I_stp * D_max) = 0.104
+
+	Assuming a control bandwith of 25kHz
+	Tr_ps = 1/ (4 * 25k)  = 10us
+	Cb >= 0.5 * I_stp * Dmax * Tr_ps / Vin_tram - Ce (1- Tolerance) = 0.5*6*0.8*10us/0.5 - 8.8(1-0.2)e-6 = 41uF
+	Will use one 47uF electrolytic cap
+
+10. VCC Capacitor Selection
+	choose 1uF straight from reference design
+
+11. Bootstrap Capacitor Selection
+	1uF selected straight from reference design
+
+12. Mosfet Selection
+	Si7852, straight from reference design
+
+13. Soft Start Capacitor Selection
+	0.1uF selected straight from reference design
+
+14. Feedback Resistor Divider
+	R2 / R1 = 12/1.215 - 1 = 8.87
+	choose R2 = 12k
+	choose R1 = 1.3k
+
+15: UVLO Network and Enable Pin
+	choose R_uvlo2 = 100k
+	R_uvlo1 = 1.215 * (R_uvlo2 / (V_in_min + 5uA * R_uvlo2  - 1.215)) = 8.5k
+	take 9k
+	Choose Cft = 1uF
+	A 1M resistor is connected between enable pin and Vin
+	
+
+16: Snubber Network
+	not used
+
+17: Compensator Caps and Res
+	R1 = 12k
+	R2 = 62k
+	C1 = 2n
+	C2 = 5p
+
+
+
+
+	
+	
+	
+	
+	
+	
