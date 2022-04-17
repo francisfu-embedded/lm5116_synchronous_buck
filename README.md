@@ -2,7 +2,7 @@
 a 72W synchronous buck converter based on TI LM5116
 
 - Features:
-Input voltage range from 20 - 50V
+Input voltage range from 15 - 50V
 Output Voltage: 12V    +- 2.5%
 Output Current: Max 6A. Shuts off after reaching the limit
 Max efficiency 96% at full load
